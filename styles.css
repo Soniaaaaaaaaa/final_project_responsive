@@ -1,0 +1,59 @@
+.cont {
+  max-width: 100%;
+}
+.intro {
+  color: #182c2b;
+}
+.link_to_add_sources,
+.link_to_add_sources:hover,
+.link_to_add_sources:visited {
+  display: block;
+  margin: 0 auto;
+  color: #182c2b;
+  background: #f1c1bd;
+  text-decoration: none;
+  padding: 16px 19px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.light-bg {
+  background: #f2b6a0;
+}
+.info-block {
+  margin-left: 12px;
+  max-width: 450px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.title {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin: 8px 0;
+}
+.img-of-tech {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  max-height: 150px;
+}
+.text-info-p {
+  padding: 10px;
+  color: white;
+}
+.quiz-pic {
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+hr {
+  border: 3px solid #f27127;
+}
+.email-me {
+  font-size: 25px;
+}
+.email-me a {
+  color: black;
+  text-decoration: none;
+}
