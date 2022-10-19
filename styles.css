@@ -1,9 +1,7 @@
-.cont {
-  max-width: 100%;
-}
 .intro {
   color: #182c2b;
 }
+
 .link_to_add_sources,
 .link_to_add_sources:hover,
 .link_to_add_sources:visited {
@@ -17,20 +15,29 @@
   text-align: center;
   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
 }
-.light-bg {
+.light-bg-1 {
+  background: #f3c7b7;
+}
+.light-bg-2 {
   background: #f2b6a0;
 }
+.light-bg-3 {
+  background: #f69c7b;
+}
 .info-block {
-  margin-left: 12px;
-  max-width: 450px;
+  display: block;
   padding-bottom: 20px;
   border-radius: 5px;
+  font-size: 18px;
 }
 .title {
   text-align: center;
   font-size: 25px;
   color: white;
   margin: 8px 0;
+}
+.img_wrapper {
+  max-width: 350px;
 }
 .img-of-tech {
   display: block;
@@ -50,10 +57,52 @@
 hr {
   border: 3px solid #f27127;
 }
+#uni_pic {
+  display: block;
+  margin: 0 auto;
+}
 .email-me {
   font-size: 25px;
+  margin-bottom: 30px;
 }
 .email-me a {
   color: black;
   text-decoration: none;
+}
+.heading_add_bl {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+.add_text_block {
+  font-size: 18px;
+}
+.uni_img_part {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  color: white;
+  font-size: 22px;
+}
+.uni_text_part {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  color: white;
+  font-size: 18px;
+}
+@media (min-width: 767px) {
+  .info-block {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 1750px) {
+  .third-img {
+    display: block !important;
+  }
+  .info-block {
+    max-width: 450px;
+  }
+  #uni_pic {
+    max-width: 400px;
+  }
 }
