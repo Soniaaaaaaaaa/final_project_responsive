@@ -62,7 +62,7 @@ hr {
   margin: 0 auto;
 }
 .email-me {
-  font-size: 25px;
+  font-size: 18px;
   margin-bottom: 30px;
 }
 .email-me a {
@@ -74,9 +74,7 @@ hr {
   font-weight: 600;
   text-align: center;
 }
-.add_text_block {
-  font-size: 18px;
-}
+
 .uni_img_part {
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
@@ -89,20 +87,27 @@ hr {
   color: white;
   font-size: 18px;
 }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-family: 24px;
+  }
+}
+
 @media (min-width: 767px) {
   .info-block {
     margin-left: 10px;
     margin-right: 10px;
   }
 }
-@media (min-width: 1750px) {
-  .third-img {
-    display: block !important;
-  }
-  .info-block {
-    max-width: 430px;
-  }
+
+@media (min-width: 1770px) {
   #uni_pic {
     max-width: 400px;
+  }
+  .third-img {
+    display: block !important;
   }
 }
